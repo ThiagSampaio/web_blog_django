@@ -9,6 +9,6 @@ def projects(request):
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('products/', projects, name="projects"),
+    path('projects/', projects, name="projects"),
 
 ]
